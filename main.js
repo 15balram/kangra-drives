@@ -124,8 +124,9 @@ if (tabs) {
 
 if (document.querySelector(".swiper")) {
   const swiper = new Swiper(".swiper", {
-    slidesPerView: 4,
+    slidesPerView: 3,
     spaceBetween: 20,
     loop: false, 
   });
+
 }
